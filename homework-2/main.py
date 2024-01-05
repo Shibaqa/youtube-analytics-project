@@ -5,11 +5,15 @@ if __name__ == '__main__':
 
     # получаем значения атрибутов
     print(moscowpython.title)  # MoscowPython
-    print(moscowpython.video_count)  # 685 (может уже больше)
-    print(moscowpython.url)  # https://www.youtube.com/channel/UC-OVMPlMA3-YCIeg4z5z23A
+    print(moscowpython.videoCount)  # 685 (может уже больше)
+    print(moscowpython.customUrl)  # https://www.youtube.com/channel/UC-OVMPlMA3-YCIeg4z5z23A
+    print(moscowpython.description)
+    print(moscowpython.subscriberCount)
+    print(moscowpython.viewCount)
+
 
     # менять не можем
-    moscowpython.channel_id = 'Новое название'
+    moscowpython.channel_id = 'MoscowPython'
     # AttributeError: property 'channel_id' of 'Channel' object has no setter
 
     # можем получить объект для работы с API вне класса
