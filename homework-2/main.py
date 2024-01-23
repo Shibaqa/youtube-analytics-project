@@ -11,7 +11,6 @@ if __name__ == '__main__':
     print(moscowpython.subscriberCount)
     print(moscowpython.viewCount)
 
-
     # менять не можем
     moscowpython.channel_id = 'MoscowPython'
     # AttributeError: property 'channel_id' of 'Channel' object has no setter
